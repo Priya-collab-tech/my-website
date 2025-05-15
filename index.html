@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy NEON Birthday, [Boyfriend's Name]!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts are now imported in CSS -->
+    <!-- <link rel="icon" href="images/favicon-heart.png" type="image/png"> -->
+</head>
+<body>
+    <div id="heart-particle-container"></div> <!-- For floating hearts -->
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <img src="images/t1.jpeg" alt="A dashing photo of [Boyfriend's Name]" class="profile-pic">
+            <h1>Happy Birthday, <span class="name-highlight">My Baby!</span></h1>
+            <p class="subtitle">To my one & only, my love, my everything! ✨</p>
+            <div id="countdown" class="countdown-timer">
+                <!-- Countdown will be inserted here by JS -->
+            </div>
+        </div>
+        <div class="scroll-down-indicator" title="Scroll for more love & neon!">
+            <span>💖</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="message" class="content-section">
+            <h2>A Lovely Message for you!</h2>
+            <p>Hey My Love❤️, my shining star!
+Words could never truly capture how much you mean to me 🥹❤️ You light up my life brighter✨💡—bringing endless joy, laughter, and unforgettable adventures into my world 🌍💫
+Today is all about YOU!
+Celebrating the incredible, one of a kind soul that you are 🥳🎂 I hope your birthday is just as magical and thrilling as you filled with all the things that make your heart race and your soul glow 💖🌈
+I’m absolutely in love with your warm heart😍🔥Those beautiful moment still makes my heart flutter like it was yesterday 🥺⛈️🚗❤️
+You and me—forever and always 🤝💋
+With all my love, a sky full of kisses, and dreams that just for us💖⚡🌌
+            </p>
+        </section>
+
+        <section id="gallery" class="content-section gallery-section">
+            <h2>Our Dazzling Moments 📸</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="images/img1.jpeg" alt="A cherished memory with [Boyfriend's Name]">
+                    <div class="gallery-caption">Our First Date 💖</div>
+                </div>
+                <div class="photo-item">
+                    <img src="images/img2.jpeg" alt="Another fun moment together">
+                    <div class="gallery-caption">That Special Moment ✨</div>
+                </div>
+                <div class="photo-item">
+                    <img src="images/img3+.jpeg" alt="[Boyfriend's Name] looking awesome!">
+                    <div class="gallery-caption">Your Amazing Smile 😊</div>
+                </div>
+                <div class="photo-item">
+                    <img src="images/img4.jpeg" alt="Us having a blast, shining bright!">
+                    <div class="gallery-caption">Our Adventures Together 🌟</div>
+                </div>
+                <div class="photo-item">
+                    <img src="images/img5.jpeg" alt="Us having a blast, shining bright!">
+                    <div class="gallery-caption">Forever & Always 💫</div>
+                </div>
+            </div>
+            <div class="gallery-nav">
+                <button class="gallery-nav-btn prev-btn">❮</button>
+                <button class="gallery-nav-btn next-btn">❯</button>
+            </div>
+            <div class="gallery-controls"></div>
+            <div class="auto-play-indicator">▶</div>
+        </section>
+
+        <section id="why-youre-awesome" class="content-section reasons-section">
+            <h2>Why You're My Neon Nova! ✨</h2>
+            <ul>
+                <li>Your <span class="highlight-text">presence always make me positive</span></li>
+                <li>The way you <span class="highlight-text">you care me,talk with me,scold me,get angry with me</span></li>
+                <li>Your incredible passion for <span class="highlight-text">Job,Upsc,gym and the way your eyes sparkle when you talk about it</span></li>
+                <li>How you always <span class="highlight-text">Support me,Comforts me,believe in me, even when I doubt myself</span></li>
+                <li>You're simply my <span class="highlight-text">soulmate, favorite human, my lifeline</span>, pure and simple!</li>
+                <li>Your <span class="highlight-text">kindness,Sweetness with me,the child inside you,the way when you are with me,makes me feel special</span></li>
+            </ul>
+        </section>
+
+        <section id="surprise" class="content-section surprise-section">
+            <h2>Get Ready For a Birthday Shockwave! 🎁⚡</h2>
+            <button id="revealSurpriseBtn">
+                💖 Click For Your Surprise! 💖
+            </button>
+            <!-- Modal Structure (hidden by default) -->
+            <div id="surpriseModalOverlay" class="modal-overlay">
+                <div id="surpriseMessage" class="surprise-modal-content">
+                    <button id="closeSurpriseModalBtn" class="close-modal-btn" title="Close">×</button>
+                    <p>Prepare for sensory overload, my love! Tonight, we're diving into <strong style="color: var(--neon-pink);">[Your VERY Exciting Surprise Plan - e.g., a private concert in our living room (starring me!), a surprise trip to that place you've always dreamed of, a custom-built escape room in our house]</strong>!
+                    <br><br>
+                    Get ready to be amazed! 😉 The night is young and full of neon possibilities!</p>
+                    <p style="font-size: 1.1rem; margin-top: 20px;">(P.S. This is just the beginning of the birthday extravaganza! 🚀)</p>
+                    <!--
+                    Example of embedded video if you want:
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 560px; border-radius: 10px; margin-top: 25px; border: 2px solid var(--electric-blue); box-shadow: 0 0 10px var(--electric-blue);"></iframe>
+                    -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script> <!-- Updated Confetti URL -->
+    <script src="script.js"></script>
+
+    <!-- Add Image Popup Structure -->
+    <div id="imagePopup" class="image-popup-overlay">
+        <div class="image-popup-content">
+            <button class="popup-close-btn">&times;</button>
+            <button class="popup-nav-btn popup-prev">❮</button>
+            <button class="popup-nav-btn popup-next">❯</button>
+            <img src="" alt="Full size image">
+        </div>
+    </div>
+</body>
+</html>
